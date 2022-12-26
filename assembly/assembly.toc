@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Question}{1}{section.1}%
+\contentsline {section}{\numberline {2}Components}{1}{section.2}%
+\contentsline {section}{\numberline {3}Truth Table}{1}{section.3}%
+\contentsline {section}{\numberline {4}Logical Diagram}{1}{section.4}%
+\contentsline {section}{\numberline {5}K-map Implementation}{1}{section.5}%
+\contentsline {paragraph}{\numberline {5.0.0a}Reducing the boolean Function}{1}{paragraph.5.0.0.1}%
+\contentsline {section}{\numberline {6}Implementation}{2}{section.6}%
+\contentsline {paragraph}{\numberline {6.0.0a}Problem-1}{2}{paragraph.6.0.0.1}%
+\contentsline {paragraph}{\numberline {6.0.0b}Problem-2}{2}{paragraph.6.0.0.2}%
