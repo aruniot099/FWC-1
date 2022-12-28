@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.20)  28 DEC 2022 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.20)  28 DEC 2022 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1094,13 +1094,13 @@ LaTeX Font Info:    Trying to load font information for OT1+lmss on input line
 92.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-No file assign.aux.
+) (./assign.aux)
 \openout1 = `assign.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 92.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 92.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1252,6 +1252,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 92.
 LaTeX Info: Redefining \pageref on input line 92.
 LaTeX Info: Redefining \nameref on input line 92.
+
+(./assign.out) (./assign.out)
 \@outlinefile=\write4
 \openout4 = `assign.out'.
 
@@ -1267,10 +1269,11 @@ LaTeX Info: Redefining \nameref on input line 92.
 LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <12> not available
 (Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 112.
 
+(./assign.toc)
 \tf@toc=\write5
 \openout5 = `assign.toc'.
 
-(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd)
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd)
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd)
@@ -1343,16 +1346,16 @@ Overfull \hbox (15.36346pt too wide) in paragraph at lines 261--262
 [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--273
-
- []
-
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 269--273
+
+ []
+
+
 Overfull \hbox (15.36346pt too wide) in paragraph at lines 279--280
 [][] 
  []
@@ -1365,20 +1368,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--283
 [2
 
 ] (./assign.aux)
-
-Package rerunfilecheck Warning: File `assign.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `assign.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  ABD9FEDABD871B2ED32892C48CCF3218;657.
+Package rerunfilecheck Info: File `assign.out' has not changed.
+(rerunfilecheck)             Checksum: ABD9FEDABD871B2ED32892C48CCF3218;657.
  ) 
 Here is how much of TeX's memory you used:
- 42547 strings out of 478287
- 956951 string characters out of 5849288
- 1576462 words of memory out of 5000000
- 60134 multiletter control sequences out of 15000+600000
+ 42562 strings out of 478287
+ 957107 string characters out of 5849288
+ 1572615 words of memory out of 5000000
+ 60141 multiletter control sequences out of 15000+600000
  637534 words of font info for 167 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  84i,14n,80p,1195b,1042s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1390,10 +1387,10 @@ exmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/l
 mss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso
 12.pfb>
-Output written on assign.pdf (2 pages, 139477 bytes).
+Output written on assign.pdf (2 pages, 141876 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
