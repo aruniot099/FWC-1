@@ -63,6 +63,7 @@ plt.title('equidistant point',size=12)
 plt.text(-2,9,'   (-2,9)') 
 plt.text(-7,0,'   (-7,0)') 
 plt.text(2,-5,'   (2,-5)') 
-  
-plt.show()
-
+#if using termux
+plt.savefig('../vector-algebra/fig.pdf')
+#else
+#plt.show()
