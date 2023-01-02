@@ -3,23 +3,24 @@ import matplotlib.pyplot as plt
 from numpy import linalg as LA 
 import math 
 import sys     #for path to external scripts 
- 
- 
- 
- 
- 
-#Two aray vectors are given  
-A = np.array(([2, -5])) 
-B = np.array(([-2, 9])) 
-O = np.array(([-7, 0])) 
- 
+  
+def find_x(point1,point2):
+    A=np.array(point1)
+    B=np.array(point2)
 #Formula for calculating the equidistance on x-axis  
-x = (np.linalg.norm(A)**2 - np.linalg.norm(B)**2) / (2 *((A - B).T)) 
- 
+    proj = (np.linalg.norm(A)**2 - np.linalg.norm(B)**2) / (2 *((A - B).T)) 
+    return proj
+#Two aray vectors are given
+point1= np.array(([2, -5]))
+point2= np.array(([-2, 9]))
+x=find_x(point1,point2)
 print("Equidistant point on x-axis=", x) 
- 
- 
- 
+
+
+
+A = np.array(([2, -5]))
+B = np.array(([-2, 9]))
+O = np.array(([-7, 0])) 
  
 def line_gen(A,B): 
    len =10 
