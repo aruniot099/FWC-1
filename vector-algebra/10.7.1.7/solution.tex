@@ -60,12 +60,12 @@ This is Problem-7 from Exercise 7.1
 
 \item The point on the $x$-axis which is equidistant from $\myvec{2 \\ -5}$ and $\myvec{-2\\9}$\\
 
-\solution \\The input parameters for this problem are available in Table 1
+\solution \\The input parameters for this problem are available in \eqref{Table-1}ref{table}
 \begin{center}
 \begin{table}[ht!]
 	\input{tables/table.tex}
 \caption{}
-\label{table}	
+\label{Table-1}	
 \end{table}
 \end{center}
 
@@ -91,14 +91,14 @@ which can be simplified to obtain
 %  \eqref{eq:norm2d_equidist}.
   \begin{align}
    \vec{O} &=
-    o\vec{e}_1
+    x\vec{e}_1
   \end{align}
   where 
   \begin{align}
-   o &=\frac{\norm{\vec{A}}^2 -\norm{\vec{B}}^2 }{2\brak{\vec{A}-\vec{B}}^{\top }\vec{e}_1
-}  
+   x &=\frac{\norm{\vec{A}}^2 -\norm{\vec{B}}^2 }{2\brak{\vec{A}-\vec{B}}^{\top }\vec{e}_1
+}\label{eq:5}  
   \end{align}
-  now substituting the A and B values in eq.5
+  now substituting the A and B values in \eqref{eq:5}
 \begin{align}
  \brak{\vec{A}-\vec{B}}^{\top}=
  \brak{\myvec{2 \\ -5}-\myvec{-2\\9}}^{\top}
@@ -110,8 +110,8 @@ which can be simplified to obtain
  \begin{align}
    \norm{\vec{B}}^2 = 85
     \end{align}
-upon   substituting the values in eq 5. the value of o = $ -7$
-\\Hence, the desired point is O is$\myvec{ -7 \\ 0}$.
+upon   substituting the values in \eqref{eq:5} the value of x = $ -7$
+\\Hence, the desired point is $\vec{O}$ is$\myvec{ -7 \\ 0}$.
 
 \begin{figure}[!h]
  \begin{center}
