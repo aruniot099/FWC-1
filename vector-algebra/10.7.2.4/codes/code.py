@@ -10,10 +10,21 @@ P = np.array(([-3, 10]))
 Q = np.array(([6, -8])) 
 R = np.array(([-1, 6])) 
  
+def find_n(point1,point2,point3):
+    P=np.array(point1)
+    Q=np.array(point2)
+    R=np.array(point3)
 #Formula for calculating the equidistance on x-axis  
-x = (Q-R)/(R-P)
+    proj =  x = (Q-R)/(R-P)
+    return proj
+#Two aray vectors are given
+point1 = np.array(([-3, 10])) 
+point2 = np.array(([6, -8])) 
+point3 = np.array(([-1, 6]))
+n=find_n(point1,point2,point3)
+print ('Point (-1, 6) divides the line PQ in ratio of:', Fraction(n[0]))
  
-print ('Point (-1, 6) divides the line PQ in ratio of:', Fraction(x[0]))
+
  
 def line_gen(P,Q): 
    len =10 
