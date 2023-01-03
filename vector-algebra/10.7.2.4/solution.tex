@@ -69,17 +69,28 @@ This is Problem-4 from Exercise 7.2
 
 Using section formula,
 \begin{align}
-	 \vec{R}=\frac{\vec{Q}+n\vec{P}}{1+n}
+	 \vec{R}=\frac{\vec{Q}+\vec{n}\vec{P}}{1+n}
 \end{align}
-and the ratio of line segment when divide by point $\vec{R}$,
+Substituting the values of $\vec{P},\vec{Q}$ and $\vec{R}$ in eq-1
 \begin{align}
-\vec{n}=\frac{\vec{Q}-\vec{R}}{\vec{R}-\vec{P}}
-\\
-	 \implies \frac{\myvec{6\\-8}-\myvec{-1\\6}}{•\myvec{-1\\6}-\myvec{-3\\10}}\\
-	 \implies \frac{\myvec{-7\\14}}{\myvec{-2\\4}}
-	 \implies \myvec{\dfrac{7}{2} 	\\ \dfrac{7}{2}}
+	 \myvec{-1\\6}=\frac{{\myvec{-3\\10}+\vec{n}\myvec{6\\-8}}}{1+\vec{n}}
 \end{align}
-Hence the ratio $\vec{n}$ is $\dfrac{7}{2}$.
+\begin{align}
+	 \implies \myvec{-1\\6}=\frac{1}{1+\vec{n}}\brak{{\myvec{-3\\10}+\vec{n}\myvec{6\\-8}}}
+\end{align}
+Simplifying the eq-3 yeilds,
+\begin{multline}
+	  -1=\frac{-3+6\vec{n}}{1+\vec{n}}\\
+	 \implies \vec{n}=\frac{2}{7}\\
+\end{multline}
+and also,
+\begin{multline}
+	 6=\frac{10-8\vec{n}}{1+\vec{n}}\\
+	  \implies \vec{n}=\frac{2}{7}\\
+\end{multline}
+
+
+Hence the ratio $\vec{n}$ is $\dfrac{2}{7}$.
 \begin{figure}[!h]
  \begin{center}
   \includegraphics[width=\columnwidth]{figs/Figure_1.png}
