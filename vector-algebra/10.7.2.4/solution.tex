@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+%\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{caption} 
+\usepackage{hyperref}
+\usepackage{booktabs}
+\def\inputGnumericTable{}
+\usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}
+\usepackage{array}
+\usepackage{amsmath}   % for having text in math mode
+\usepackage{listings}
+\lstset{
+language=tex,
+frame=single, 
+breaklines=true
+}
+  
+%Following 2 lines were added to remove the blank page at the beginning
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+%
+
+
+%New macro definitions
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\let\vec\mathbf
+
+\begin{document}
+
+\begin{center}
+\title{\textbf{Coordinate Geometry}}
+\date{\vspace{-5ex}} %Not to print date automatically
+\maketitle
+\end{center}
+
+\setcounter{page}{1}
+
+
+
+\section*{10$^{th}$ Maths - Chapter 7}
+
+This is Problem-4 from Exercise 7.2
+
+\begin{enumerate}
+
+\item Find the ratio in which the line segement joining the points $\myvec{-3 \\ 10}$ and $\myvec{6\\-8}$ is divided by $\myvec{-1\\6}$.\\
+
+\solution \\The input parameters for this problem are available in Table 
+\begin{table}[ht!]
+\input{tables/table.tex}
+\caption{}
+\label{Table-1} 
+\end{table}
+
+Using section formula,
+\begin{align}
+  \vec{R}=\frac{\vec{Q}+n\vec{P}}{1+n}
+\end{align}
+and the ratio of line segment when divide by point $\vec{R}$,
+\begin{align}
+\vec{n}=\frac{\vec{Q}-\vec{R}}{\vec{R}-\vec{P}}
+\\
+  \implies \frac{\myvec{6\\-8}-\myvec{-1\\6}}{•\myvec{-1\\6}-\myvec{-3\\10}}\\
+  \implies \frac{\myvec{-7\\14}}{\myvec{-2\\4}}
+  \implies \myvec{\dfrac{7}{2}  \\ \dfrac{7}{2}}
+\end{align}
+Hence the ratio $\vec{n}$ is $\dfrac{7}{2}$.
+\begin{figure}[!h]
+ \begin{center}
+  \includegraphics[width=\columnwidth]{figs/fig.pdf}
+ \end{center}
+\caption{}
+\label{fig:Fig1}
+\end{figure}
+
+
+\end{enumerate}
+
+\end{document}
