@@ -69,6 +69,6 @@ plt.text(-3,10,'     (-3,10)')
 plt.text(6,-8,'      (6.-8)') 
 plt.text(-1,6,'      (-1,6)')
 #if using termux
-plt.savefig('../figs/fig.png')
+plt.savefig('../figs/Figure_1.png')
 #else
 #plt.show()
