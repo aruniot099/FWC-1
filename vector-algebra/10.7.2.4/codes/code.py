@@ -15,14 +15,14 @@ def find_n(point1,point2,point3):
     Q=np.array(point2)
     R=np.array(point3)
 #Formula for calculating the equidistance on x-axis  
-    proj =  x = (Q-R)/(R-P)
+    proj =  x = (R-P)/(Q-R)
     return proj
 #Two aray vectors are given
 point1 = np.array(([-3, 10])) 
 point2 = np.array(([6, -8])) 
 point3 = np.array(([-1, 6]))
 n=find_n(point1,point2,point3)
-print ('Point (-1, 6) divides the line PQ in ratio of:', Fraction(n[0]))
+print ('Point (-1, 6) divides the line PQ in ratio of:', n)
  
 
  
@@ -37,14 +37,14 @@ def line_gen(P,Q):
    return x_PQ 
  
    
-x_RP = line_gen(P,R) 
-x_RQ = line_gen(R,Q) 
+x_RP = line_gen(P,Q) 
+ 
  
  
  
 #Plotting all lines 
-plt.plot(x_RP[0,:],x_RP[1,:],label='$PR$') 
-plt.plot(x_RQ[0,:],x_RQ[1,:],label='$RQ$') 
+plt.plot(x_RP[0,:],x_RP[1,:],label='$PQ$') 
+ 
  
  
  
@@ -64,11 +64,11 @@ plt.ylabel('$y-axis$')
 plt.legend(loc='best') 
 plt.grid() # minor 
 plt.axis('equal') 
-plt.title('Point (-1,6) divides PQ in ratio of 7:2',size=12) 
+plt.title('Point (-1,6) divides PQ in ratio of 2:7',size=12) 
 plt.text(-3,10,'     (-3,10)') 
 plt.text(6,-8,'      (6.-8)') 
 plt.text(-1,6,'      (-1,6)')
 #if using termux
-plt.savefig('../figs/fig.pdf')
+plt.savefig('../figs/fig.png')
 #else
 #plt.show()
