@@ -30,8 +30,6 @@ breaklines=true
 \usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
 \AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 %
-
-
 %New macro definitions
 \newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
 \providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
@@ -39,58 +37,48 @@ breaklines=true
 \newcommand{\solution}{\noindent \textbf{Solution: }}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \let\vec\mathbf
-
 \begin{document}
-
 \begin{center}
 \title{\textbf{Coordinate Geometry}}
 \date{\vspace{-5ex}} %Not to print date automatically
 \maketitle
 \end{center}
-
 \setcounter{page}{1}
-
-
-
 \section*{10$^{th}$ Maths - Chapter 7}
-
 This is Problem-4 from Exercise 7.2
-
 \begin{enumerate}
-
 \item Find the ratio in which the line segement joining the points $\myvec{-3 \\ 10}$ and $\myvec{6\\-8}$ is divided by $\myvec{-1\\6}$.\\
-
 \solution \\The input parameters for this problem are available in Table \eqref{Table-1}
 \begin{table}[ht!]
 \input{table/table.tex}
 \caption{}
-\label{Table-1}	
+\label{Table-1} 
 \end{table}
-
 Using section formula,
 \begin{align}
-	 \vec{R}=\frac{\vec{Q}+\vec{n}\vec{P}}{1+n}\label{eq:1}
+         \vec{R}=\frac{\vec{Q}+n\vec{P}}{1+n}\label{eq:1}
 \end{align}
 Substituting the values of $\vec{P},\vec{Q}$ and $\vec{R}$ in \eqref{eq:1}
 \begin{align}
-	 \myvec{-1\\6}=\frac{{\myvec{-3\\10}+\vec{n}\myvec{6\\-8}}}{1+\vec{n}}
+         \myvec{-1\\6}=\frac{{\myvec{-3\\10}+n\myvec{6\\-8}}}{1+n}
 \end{align}
 \begin{align}
-	 \implies \myvec{-1\\6}=\frac{1}{1+\vec{n}}\brak{{\myvec{-3\\10}+\vec{n}\myvec{6\\-8}}} \label{eq:3}
+         \implies \myvec{-1\\6}=\frac{1}{1+n}\brak{{\myvec{-3\\10}+n\myvec{6\\-8}}} 
+         \end{align}
+\begin{align}
+         \implies \myvec{-1\\6}=\frac{1}{1+n}\myvec{-3+6n\\10-8n} \label{eq:4}
 \end{align}
-Simplifying the \eqref{eq:3} yeilds,
+Simplifying the \eqref{eq:4} yeilds,
 \begin{multline}
-	  -1=\frac{-3+6\vec{n}}{1+\vec{n}}\\
-	 \implies \vec{n}=\frac{2}{7}\\
+          -1=\frac{-3+6n}{1+n}\\
+         \implies n=\frac{2}{7}\\
 \end{multline}
 and also,
 \begin{multline}
-	 6=\frac{10-8\vec{n}}{1+\vec{n}}\\
-	  \implies \vec{n}=\frac{2}{7}\\
+         6=\frac{10-8n}{1+n}\\
+          \implies n=\frac{2}{7}\\
 \end{multline}
-
-
-Hence the ratio $\vec{n}$ is $\dfrac{2}{7}$.
+Hence the ratio $n$ is $\dfrac{2}{7}$.
 \begin{figure}[!h]
  \begin{center}
   \includegraphics[width=\columnwidth]{figs/Figure_1.png}
@@ -98,8 +86,5 @@ Hence the ratio $\vec{n}$ is $\dfrac{2}{7}$.
 \caption{}
 \label{fig:Fig1}
 \end{figure}
-
-
 \end{enumerate}
-
 \end{document}
