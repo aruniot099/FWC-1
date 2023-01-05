@@ -59,8 +59,8 @@ for i, txt in enumerate(vert_labels):
                  xytext=(10,-2), # distance from text to points (x,y) 
                  ha='center') # horizontal alignment can be left, right or center 
  
-plt.xlabel('$x-axis$') 
-plt.ylabel('$y-axis$') 
+plt.xlabel('$x$') 
+plt.ylabel('$y$') 
 plt.legend(loc='best') 
 plt.grid() # minor 
 plt.axis('equal') 
@@ -69,6 +69,6 @@ plt.text(-3,10,'     (-3,10)')
 plt.text(6,-8,'      (6.-8)') 
 plt.text(-1,6,'      (-1,6)')
 #if using termux
-plt.savefig('../figs/Figure_1.png')
+plt.savefig('../figs/fig.png')
 #else
 #plt.show()
