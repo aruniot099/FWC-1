@@ -1,0 +1,160 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+%\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{caption} 
+\usepackage{hyperref}
+\usepackage{booktabs}
+\def\inputGnumericTable{}
+\usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}
+\usepackage{array}
+\usepackage{amsmath}   % for having text in math mode
+\usepackage{parallel,enumitem}
+\usepackage{listings}
+\lstset{
+language=tex,
+frame=single, 
+breaklines=true
+}
+  
+%Following 2 lines were added to remove the blank page at the beginning
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+%
+%New macro definitions
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\let\vec\mathbf
+\begin{document}
+\begin{center}
+\title{\textbf{Coordinate Geometry}}
+\date{\vspace{-5ex}} %Not to print date automatically
+\maketitle
+\end{center}
+\setcounter{page}{1}
+\section*{10$^{th}$ Maths - Chapter 7}
+This is Problem-6 from Exercise 7.4
+\begin{enumerate}
+\item The vertices of $\triangle ABC$ are $\myvec{4 \\ 6}, \myvec{1\\5}, \myvec{7\\2}$. A line is drawn to intersect sides AB and AC at D and E respectively, such that $\dfrac{AD}{AB}=\dfrac{AE}{AC}=\dfrac{1}{4}$. Calculate the area of the $\triangle ADE$ and compare it with the area of $\triangle ABC$.\\
+\solution The input parameters for this problem are available in Table \eqref{Table-1}
+\begin{table}[ht!]\centering
+\input{tables/table.tex}
+\caption{}
+\label{Table-1}	
+\end{table}
+
+
+Given,
+\begin{align}
+\frac{\vec{A}\vec{D}}{\vec{A}\vec{B}}=\frac{\vec{A}\vec{E}}{\vec{A}\vec{C}}=\frac{1}{4}\label{1}
+\end{align}
+From \eqref{1},
+\begin{align}
+\frac{\vec{A}\vec{D}}{\vec{A}\vec{B}} &=\frac{1}{4}\\
+4 \vec{A}\vec{D} &=\vec{A}\vec{D} + \vec{B}\vec{D}\\
+4 \vec{A}\vec{D}-\vec{A}\vec{D} &=\vec{B}\vec{D}\\
+3 \vec{A}\vec{D} &=\vec{B}\vec{D}\\
+\frac{\vec{A}\vec{D}}{\vec{B}\vec{D}} &=\frac{1}{3}
+\end{align}
+Point $\vec{D}$ divides $\vec{A}\vec{B}$ in the ratio of $n = 1:3$.\\
+using Section formula,
+\begin{align}
+\vec{D} &=\frac{\vec{B}+n\vec{A}}{1+n}\label{7}
+\end{align}
+Substituting the values $\vec{A}$ and $\vec{B}$ in \eqref{7},
+\begin{align}
+\vec{D} &=\frac{{\myvec{1\\5}+n\myvec{4\\6}}}{1+n}\\
+          &=\frac{1}{1+n}\brak{{\myvec{1\\5}+n\myvec{4\\6}}} \\
+         &=\frac{1}{1+n}\myvec{4+n\\6+5n} \label{10}
+\end{align}
+Substituting the value of $n$ in \eqref{10},
+\begin{align}
+\vec{D} &=\frac{3}{4}\myvec{4+\cfrac{1}{3}\\6+\cfrac{5}{3}}\\
+		&=\frac{3}{4}\myvec{\cfrac{13}{3}\\ \cfrac{23}{4}}\\
+		&=\myvec{\cfrac{13}{4}\\ \cfrac{23}{4}}
+\end{align}
+%part-2
+
+From \eqref{1},
+\begin{align}
+\frac{\vec{A}\vec{E}}{\vec{A}\vec{C}} &=\frac{1}{4}\\
+4 \vec{A}\vec{E} &=\vec{A}\vec{E} + \vec{C}\vec{E}\\
+4 \vec{A}\vec{E}-\vec{A}\vec{E} &=\vec{C}\vec{E}\\
+3 \vec{A}\vec{E} &=\vec{C}\vec{E}\\
+\frac{\vec{A}\vec{E}}{\vec{C}\vec{E}} &=\frac{1}{3}
+\end{align}
+Point $\vec{E}$ divides $\vec{A}\vec{C}$ in the ratio of $n = \frac{1}{3}$.\\
+using Section formula,
+\begin{align}
+\vec{E} &=\frac{\vec{C}+n\vec{A}}{1+n}\label{19}
+\end{align}
+Substituting the values $\vec{A}$ and $\vec{C}$ in \eqref{19},
+\begin{align}
+\vec{E} &=\frac{{\myvec{7\\2}+n\myvec{4\\6}}}{1+n}\\
+          &=\frac{1}{1+n}\brak{{\myvec{7\\2}+n\myvec{4\\6}}} \\
+         &=\frac{1}{1+n}\myvec{4+7n\\6+2n} \label{22}
+\end{align}
+Substituting the value of $n$ in \eqref{22},
+\begin{align}
+\vec{E} &=\frac{3}{4}\myvec{4+\cfrac{7}{3}\\6+\cfrac{2}{3}}\\
+		&=\frac{3}{4}\myvec{\cfrac{19}{3}\\ \cfrac{20}{3}}\\
+		&=\myvec{\cfrac{19}{4}\\ \cfrac{20}{4}}
+\end{align}
+Now,\\
+		The ar(ADE) can be expressed as
+  \begin{align}
+	  ar(ABD)=\frac{1}{2} \norm{\brak{\vec{A}-\vec{D}}  \times 
+   \brak{\vec{A}- \vec{E}}} \label{eq:26} 
+\end{align}
+\begin{align}
+	\vec{A}- \vec{D} &= \myvec{4\\6}-\myvec{\cfrac{13}{4}\\ \cfrac{23}{4}\\}=\myvec{\cfrac{3}{4}\\ \cfrac{1}{4}\\}\label{eq:27}\\
+	  \vec{A}- \vec{E} &= \myvec{4\\6\\}-\myvec{\cfrac{19}{4}\\ \cfrac{20}{4}\\}=\myvec{\cfrac{-3}{4}\\1\\}\label{eq:28}
+  \end{align}
+Substituting the values of \eqref{eq:27} and \eqref{eq:28} in \eqref{eq:26},
+\begin{align}
+	ar(ADE)=\frac{1}{2}\mydet{\cfrac{3}{4} & \cfrac{-3}{4}\\ \cfrac{1}{4} & 1}  
+	&=	\frac{15}{32}
+\end{align}
+Now,		
+		The ar(ABC) can be expressed as
+  \begin{align}
+	  ar(ABC)=\frac{1}{2} \norm{\brak{\vec{A}-\vec{B}}  \times 
+   \brak{\vec{B}- \vec{C}}} \label{eq:30} 
+\end{align}
+\begin{align}
+	\vec{A}- \vec{B} &= \myvec{4\\6\\}-\myvec{1\\5\\}=\myvec{3\\1\\}\label{eq:31}\\
+	  \vec{B}-\vec{C} &= \myvec{1\\5\\}-\myvec{7\\2\\}=\myvec{-6\\3\\}\label{eq:32}
+  \end{align}
+Substituting the values of \eqref{eq:31} and \eqref{eq:32} in \eqref{eq:30},
+\begin{align}
+	ar(ABC)=\frac{1}{2}\mydet{3 & -6\\1 & 3}  
+	&=	\frac{15}{2}
+\end{align}
+		Thus,
+\begin{align}
+	\frac{ar\brak{ADE}}{ar\brak{ABC}}&=\frac{\cfrac{15}{32}}{\cfrac{15}{2}}\\
+	&=\frac{15}{32}\times \frac{2}{15}=\frac{1}{16}
+\end{align}
+
+\begin{figure}[!h]
+ \begin{center}
+ \includegraphics[width=\columnwidth]{figs/fig.png}
+ \end{center}
+\caption{}
+\label{fig:Fig1}
+\end{figure}
+\end{enumerate}
+\end{document}
