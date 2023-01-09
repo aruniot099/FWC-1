@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  9 JAN 2023 07:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  9 JAN 2023 08:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,31 +545,8 @@ Overfull \hbox (1.47179pt too wide) in paragraph at lines 51--58
 wn to in-ter-sect
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `13' on page 2 undefined on input line 99.
-
-[2]
-
-LaTeX Warning: Reference `eq:19' on page 3 undefined on input line 116.
-
-
-LaTeX Warning: Reference `eq:20' on page 3 undefined on input line 116.
-
-
-LaTeX Warning: Reference `eq:18' on page 3 undefined on input line 116.
-
-
-LaTeX Warning: Reference `eq:23' on page 3 undefined on input line 131.
-
-
-LaTeX Warning: Reference `eq:24' on page 3 undefined on input line 131.
-
-
-LaTeX Warning: Reference `eq:22' on page 3 undefined on input line 131.
-
-[3]
-<figs/fig.png, id=52, 462.528pt x 346.896pt>
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+<figs/fig.png, id=59, 462.528pt x 346.896pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
 Package pdftex.def Info: figs/fig.png  used on input line 144.
@@ -579,12 +556,6 @@ Package pdftex.def Info: figs/fig.png  used on input line 144.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4] [5 <./figs/fig.png>] (./solution.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `solution.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -603,10 +574,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on solution.pdf (5 pages, 99522 bytes).
+Output written on solution.pdf (5 pages, 99508 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  36 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
