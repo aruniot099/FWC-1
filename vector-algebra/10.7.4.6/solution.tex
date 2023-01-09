@@ -64,88 +64,78 @@ Given,
 From \eqref{1},
 \begin{align}
 \frac{\vec{A}\vec{D}}{\vec{A}\vec{B}} &=\frac{1}{4}\\
-4 \vec{A}\vec{D} &=\vec{A}\vec{D} + \vec{B}\vec{D}\\
-4 \vec{A}\vec{D}-\vec{A}\vec{D} &=\vec{B}\vec{D}\\
-3 \vec{A}\vec{D} &=\vec{B}\vec{D}\\
+\end{align}
+then,
+\begin{align}
 \frac{\vec{A}\vec{D}}{\vec{B}\vec{D}} &=\frac{1}{3}
 \end{align}
 Point $\vec{D}$ divides $\vec{A}\vec{B}$ in the ratio of $n = 1:3$.\\
 using Section formula,
 \begin{align}
-\vec{D} &=\frac{\vec{B}+n\vec{A}}{1+n}\label{7}
+\vec{D} &=\frac{\vec{A}+n\vec{B}}{1+n}\label{5}
 \end{align}
-Substituting the values $\vec{A}$ and $\vec{B}$ in \eqref{7},
+Substituting the values $\vec{A},\vec{B}$ and $n$ in \eqref{5},
 \begin{align}
-\vec{D} &=\frac{{\myvec{1\\5}+n\myvec{4\\6}}}{1+n}\\
-          &=\frac{1}{1+n}\brak{{\myvec{1\\5}+n\myvec{4\\6}}} \\
-         &=\frac{1}{1+n}\myvec{4+n\\6+5n} \label{10}
-\end{align}
-Substituting the value of $n$ in \eqref{10},
-\begin{align}
-\vec{D} &=\frac{3}{4}\myvec{4+\cfrac{1}{3}\\6+\cfrac{5}{3}}\\
-		&=\frac{3}{4}\myvec{\cfrac{13}{3}\\ \cfrac{23}{4}}\\
-		&=\myvec{\cfrac{13}{4}\\ \cfrac{23}{4}}
+\vec{D} &=\frac{{\myvec{4\\6}+\frac{1}{3}\myvec{1\\5}}}{1+\frac{1}{3}}\\
+	&=\frac{1}{1+\frac{1}{3}}\brak{{\myvec{4\\6}+\frac{1}{3}\myvec{1\\5}}} \\
+	&=\frac{3}{4}\myvec{4+\frac{1}{3}\\6+\frac{5}{3}}\\
+	&=\myvec{\frac{13}{4}\\ \frac{23}{4}}
 \end{align}
 %part-2
 
 From \eqref{1},
 \begin{align}
 \frac{\vec{A}\vec{E}}{\vec{A}\vec{C}} &=\frac{1}{4}\\
-4 \vec{A}\vec{E} &=\vec{A}\vec{E} + \vec{C}\vec{E}\\
-4 \vec{A}\vec{E}-\vec{A}\vec{E} &=\vec{C}\vec{E}\\
-3 \vec{A}\vec{E} &=\vec{C}\vec{E}\\
+\end{align}
+then,
+\begin{align}
 \frac{\vec{A}\vec{E}}{\vec{C}\vec{E}} &=\frac{1}{3}
 \end{align}
 Point $\vec{E}$ divides $\vec{A}\vec{C}$ in the ratio of $n = \frac{1}{3}$.\\
 using Section formula,
 \begin{align}
-\vec{E} &=\frac{\vec{C}+n\vec{A}}{1+n}\label{19}
+\vec{E} &=\frac{\vec{A}+n\vec{C}}{1+n}\label{13}
 \end{align}
-Substituting the values $\vec{A}$ and $\vec{C}$ in \eqref{19},
+Substituting the values $\vec{A},\vec{C}$ and $n$ in \eqref{13},
 \begin{align}
-\vec{E} &=\frac{{\myvec{7\\2}+n\myvec{4\\6}}}{1+n}\\
-          &=\frac{1}{1+n}\brak{{\myvec{7\\2}+n\myvec{4\\6}}} \\
-         &=\frac{1}{1+n}\myvec{4+7n\\6+2n} \label{22}
-\end{align}
-Substituting the value of $n$ in \eqref{22},
-\begin{align}
-\vec{E} &=\frac{3}{4}\myvec{4+\cfrac{7}{3}\\6+\cfrac{2}{3}}\\
-		&=\frac{3}{4}\myvec{\cfrac{19}{3}\\ \cfrac{20}{3}}\\
-		&=\myvec{\cfrac{19}{4}\\ \cfrac{20}{4}}
+\vec{E} &=\frac{{\myvec{4\\6}+\frac{1}{3}\myvec{7\\2}}}{1+\frac{1}{3}}\\
+	&=\frac{1}{1+\frac{1}{3}}\brak{{\myvec{4\\6}+\frac{1}{3}\myvec{7\\2}}} \\
+	&=\frac{3}{4}\myvec{4+\frac{7}{3}\\6+\frac{2}{3}}\\
+	&=\myvec{\frac{19}{4}\\ \frac{20}{4}}
 \end{align}
 Now,\\
 		The ar(ADE) can be expressed as
   \begin{align}
 	  ar(ABD)=\frac{1}{2} \norm{\brak{\vec{A}-\vec{D}}  \times 
-   \brak{\vec{A}- \vec{E}}} \label{eq:26} 
+   \brak{\vec{A}- \vec{E}}} \label{eq:18} 
 \end{align}
 \begin{align}
-	\vec{A}- \vec{D} &= \myvec{4\\6}-\myvec{\cfrac{13}{4}\\ \cfrac{23}{4}\\}=\myvec{\cfrac{3}{4}\\ \cfrac{1}{4}\\}\label{eq:27}\\
-	  \vec{A}- \vec{E} &= \myvec{4\\6\\}-\myvec{\cfrac{19}{4}\\ \cfrac{20}{4}\\}=\myvec{\cfrac{-3}{4}\\1\\}\label{eq:28}
+	\vec{A}- \vec{D} &= \myvec{4\\6}-\myvec{\frac{13}{4}\\ \frac{23}{4}\\}=\myvec{\frac{3}{4}\\ \frac{1}{4}\\}\label{eq:19}\\
+	  \vec{A}- \vec{E} &= \myvec{4\\6\\}-\myvec{\frac{19}{4}\\ \frac{20}{4}\\}=\myvec{\frac{-3}{4}\\1\\}\label{eq:20}
   \end{align}
-Substituting the values of \eqref{eq:27} and \eqref{eq:28} in \eqref{eq:26},
+Substituting the values of \eqref{eq:19} and \eqref{eq:20} in \eqref{eq:18},
 \begin{align}
-	ar(ADE)=\frac{1}{2}\mydet{\cfrac{3}{4} & \cfrac{-3}{4}\\ \cfrac{1}{4} & 1}  
+	ar(ADE)=\frac{1}{2}\mydet{\frac{3}{4} & \frac{-3}{4}\\ \frac{1}{4} & 1}  
 	&=	\frac{15}{32}
 \end{align}
 Now,		
 		The ar(ABC) can be expressed as
   \begin{align}
 	  ar(ABC)=\frac{1}{2} \norm{\brak{\vec{A}-\vec{B}}  \times 
-   \brak{\vec{B}- \vec{C}}} \label{eq:30} 
+   \brak{\vec{B}- \vec{C}}} \label{eq:22} 
 \end{align}
 \begin{align}
-	\vec{A}- \vec{B} &= \myvec{4\\6\\}-\myvec{1\\5\\}=\myvec{3\\1\\}\label{eq:31}\\
-	  \vec{B}-\vec{C} &= \myvec{1\\5\\}-\myvec{7\\2\\}=\myvec{-6\\3\\}\label{eq:32}
+	\vec{A}- \vec{B} &= \myvec{4\\6\\}-\myvec{1\\5\\}=\myvec{3\\1\\}\label{eq:23}\\
+	  \vec{B}-\vec{C} &= \myvec{1\\5\\}-\myvec{7\\2\\}=\myvec{-6\\3\\}\label{eq:24}
   \end{align}
-Substituting the values of \eqref{eq:31} and \eqref{eq:32} in \eqref{eq:30},
+Substituting the values of \eqref{eq:23} and \eqref{eq:24} in \eqref{eq:22},
 \begin{align}
 	ar(ABC)=\frac{1}{2}\mydet{3 & -6\\1 & 3}  
 	&=	\frac{15}{2}
 \end{align}
 		Thus,
 \begin{align}
-	\frac{ar\brak{ADE}}{ar\brak{ABC}}&=\frac{\cfrac{15}{32}}{\cfrac{15}{2}}\\
+	\frac{ar\brak{ADE}}{ar\brak{ABC}}&=\frac{\frac{15}{32}}{\frac{15}{2}}\\
 	&=\frac{15}{32}\times \frac{2}{15}=\frac{1}{16}
 \end{align}
 
