@@ -51,18 +51,18 @@ breaklines=true
 This is Problem-6 from Exercise 7.4
 \begin{enumerate}
 \item The vertices of $\triangle ABC$ are $\myvec{4 \\ 6}, \myvec{1\\5}, \myvec{7\\2}$. A line is drawn to intersect sides AB and AC at D and E respectively, such that $\dfrac{AD}{AB}=\dfrac{AE}{AC}=\dfrac{1}{4}$. Calculate the area of the $\triangle ADE$ and compare it with the area of $\triangle ABC$.\\
-\solution The input parameters for this problem are available in Table \eqref{Table-1}
+\solution The input parameters for this problem are available in Table \eqref{table:1}
 \begin{table}[ht!]\centering
 \input{tables/table.tex}
 \caption{}
-\label{Table-1}	
+\label{table:1}	
 \end{table}
 
 Given,
 \begin{align}
-\frac{AD}{AB}=\frac{AE}{AC}=\frac{1}{4}\label{1}
+\frac{AD}{AB}=\frac{AE}{AC}=\frac{1}{4}\label{eq:1}
 \end{align}
-From \eqref{1},
+From \eqref{eq:1},
 \begin{align}
 \frac{AD}{AB} &=\frac{1}{4}\\
 \frac{AD}{BD} &=\frac{1}{3}
@@ -70,9 +70,9 @@ From \eqref{1},
 Point $\vec{D}$ divides $\vec{A}\vec{B}$ in the ratio of $n = 1:3$.
 	Using Section formula,
 \begin{align}
-\vec{D} &=\frac{\vec{A}+n\vec{B}}{1+n}\label{4}
+\vec{D} &=\frac{\vec{A}+n\vec{B}}{1+n}\label{eq:4}
 \end{align}
-Substituting the values $\vec{A},\vec{B}$ and $n$ in \eqref{4},
+Substituting the values $\vec{A},\vec{B}$ and $n$ in \eqref{eq:4},
 \begin{align}
 \vec{D} &=\frac{{\myvec{4\\6}+\frac{1}{3}\myvec{1\\5}}}{1+\frac{1}{3}}\\
 	&=\frac{1}{1+\frac{1}{3}}\brak{{\myvec{4\\6}+\frac{1}{3}\myvec{1\\5}}} \\
@@ -81,7 +81,7 @@ Substituting the values $\vec{A},\vec{B}$ and $n$ in \eqref{4},
 \end{align}
 %part-2
 
-From \eqref{1},
+From \eqref{eq:1},
 \begin{align}
 \frac{AE}{AC} &=\frac{1}{4}\\
 \frac{AE}{CE} &=\frac{1}{3}
@@ -89,9 +89,9 @@ From \eqref{1},
 Point $\vec{E}$ divides $\vec{A}\vec{C}$ in the ratio of $n = \frac{1}{3}$.
 Using Section formula,
 \begin{align}
-\vec{E} &=\frac{\vec{A}+n\vec{C}}{1+n}\label{11}
+\vec{E} &=\frac{\vec{A}+n\vec{C}}{1+n}\label{eq:11}
 \end{align}
-Substituting the values $\vec{A},\vec{C}$ and $n$ in \eqref{11},
+Substituting the values $\vec{A},\vec{C}$ and $n$ in \eqref{eq:11},
 \begin{align}
 \vec{E} &=\frac{{\myvec{4\\6}+\frac{1}{3}\myvec{7\\2}}}{1+\frac{1}{3}}\\
 	&=\frac{1}{1+\frac{1}{3}}\brak{{\myvec{4\\6}+\frac{1}{3}\myvec{7\\2}}} \\
