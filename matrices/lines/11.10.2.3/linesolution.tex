@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+%\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[parfill]{parskip}
+\usepackage{hyperref}
+\usepackage{booktabs}
+%\usepackage{setspace}\doublespacing\pagestyle{plain}
+\def\inputGnumericTable{}
+\usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}
+\usepackage{array}
+\usepackage{amsmath}   % for having text in math mode
+\usepackage{parallel,enumitem}
+\usepackage{listings}
+\lstset{
+language=tex,
+frame=single, 
+breaklines=true
+}
+  
+%Following 2 lines were added to remove the blank page at the beginning
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+%
+%New macro definitions
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\let\vec\mathbf
+\begin{document}
+\begin{center}
+\title{\textbf{Straight Lines}}
+\date{\vspace{-5ex}} %Not to print date automatically
+\maketitle
+\end{center}
+\setcounter{page}{1}
+\section*{11$^{th}$ Maths - Chapter 10}
+This is Problem-3 from Exercise 10.2
+\begin{enumerate}
+	\item Find the equation of line passing through $\myvec{0\\0}$ with slope $m$.\\
+\solution
+		Line passing through point $\vec{A}=\myvec{0\\0}$ is given by,
+\begin{align}
+	\vec{n}^\top \brak{\vec{x}-\vec{A}} &= 0\label{eq:1}
+\end{align}
+Where,
+		\begin{align}
+			\vec{n} &=\myvec{1 \\ \frac{1}{m}}\\
+			\vec{n}^\top &=\myvec{1 & \frac{1}{m}}
+		\end{align}
+Substituting them in equation \eqref{eq:1}
+		\begin{align}
+			\myvec{1 & \frac{1}{m}}\brak{\vec{x}-\myvec{0\\0}} &=0\\
+			\myvec{1 & \frac{1}{m}}\myvec{x-0\\y-0} &=0\\
+			\myvec{1 & \frac{1}{m}}\myvec{x\\y} &= 0\\
+			x-\frac{y}{m} &=0\\
+			-\frac{y}{m} &=-x\\
+			y &=mx
+		\end{align}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=\columnwidth]{figs/fig.pdf}
+\end{center}
+\caption{}
+\label{fig:Fig1}
+\end{figure}
+\end{enumerate}
+\end{document}
