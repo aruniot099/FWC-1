@@ -22,13 +22,13 @@ def plot_line(m):
     # Add labels and show the plot
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.title('Equation of line passing through (0,0)')
+    plt.title(f'Equation of line passing through (0,0) with slope {m}')
     plt.legend(loc='best')
     plt.grid()
     plt.axis('equal')
     plt.show()
     #if using termux
-    plt.savefig('../figs/fig.png')
+    plt.savefig('../figs/fig.pdf')
 
 m = 2
 plot_line(m)
