@@ -22,7 +22,9 @@ D=np.array(([3,0]))
 #Direction vector 
 m=np.array(([1,-7]))                                                               
 z=np.array(([0,1],[-1,0]))                            
-n=m@z                                      
+n=m@z
+i=n*D
+j=i[0]
 print(n) 
 ##Generating the line  
 k1=-1 
@@ -34,7 +36,7 @@ x_CD = line_dir_pt(m,D,k1,k2)
  
 #Plotting all lines 
 plt.plot(x_AB[0,:],x_AB[1,:],label='x-7y+5=0') 
-plt.plot(x_CD[0,:],x_CD[1,:],label='{}X={}'.format(n,D)) 
+plt.plot(x_CD[0,:],x_CD[1,:],label='{}X-{}=0'.format(n,j)) 
  
  
  
