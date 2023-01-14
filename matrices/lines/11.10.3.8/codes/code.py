@@ -36,7 +36,7 @@ x_CD = line_dir_pt(m,D,k1,k2)
  
 #Plotting all lines 
 plt.plot(x_AB[0,:],x_AB[1,:],label='x-7y+5=0') 
-plt.plot(x_CD[0,:],x_CD[1,:],label='{}X-{}=0'.format(n,j)) 
+plt.plot(x_CD[0,:],x_CD[1,:],label='({})X-{}=0'.format(" ".join([str(i) for i in n]),j)) 
  
  
  
