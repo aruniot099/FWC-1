@@ -63,41 +63,35 @@ Given line is
 \begin{align}
 (k-3)x-(4-k^2)y+k^2-7k+6=0 \label{eq:1}
 \end{align}
-this equation can be expressed as
+this equation can be expressed in the form of 
 \begin{align}
 \vec{n}^{\top}\vec{x}=c \label{eq:2}
 \end{align}
 \begin{align}
 \text{ where }
-\vec{n} = \myvec{k-3\\4-k^2} , c = -k^2+7k-6
+\vec{n} = \myvec{k-3\\-4+k^2} , c  = -k^2+7k-6
+\end{align}
+then \eqref{eq:1} can be expressed as
+\begin{align}
+\myvec{k-3 & -4+k^2}\vec{x} &=-k^2+7k-6\label{eq:4}
 \end{align}
 \begin{enumerate}
+%part-1
     \item Parallel to $x$-axis
-
-the equation of line parallel to $x$-axis is given by
+    
+The normal vector of $x$-axis is given by
 \begin{align}
-\vec{n}^\top\brak{\vec{x}-\vec{A}}=0 \label{eq:4}
+\myvec{0\\1}
 \end{align}
-where $\vec{A}$ and $\vec{n}^\top$ is
+Equating the $\vec{n}$ to the normal vector of $x$-axis
 \begin{align}
-\vec{n}^\top &=\myvec{k-2 & 4-k^2}\\
-\vec{A} &=\myvec{a\\b}
+\myvec{k-3\\-4+k^2} &=\alpha\myvec{0\\1}\\
+0 &=\alpha\myvec{0\\1}\myvec{-4+k^2\\k-3}\\
+k &=3
 \end{align}
-Substituting the value of $\vec{n}\top$ and $\vec{A}$ in \eqref{eq:4}
+Substituting the value of $k$ in \eqref{eq:4} then equation of line parallel to $x$-axis is given by
 \begin{align}
-\myvec{k-3 & 4-k^2}\brak{\vec{x}-\myvec{a\\b}} =0
-\end{align}
-When line is parallel to $x$-axis then $y=0$ and $b=0$
-\begin{align}
-        k-3 \brak{x-a} &=0\\
-        k-3 &=0\\
-        k &=3
-\end{align}
-Substituting the value of $k$ in \eqref{eq:1} then equation of line parallel to $x$-axis is given by
-\begin{align}
-        5y+4 &=0\\
-        5y &=-4\\
-        y=\frac{-4}{5}
+        \myvec{0 & 5}\vec{x} &=6
 \end{align}
 The line parallel to $x$-axis is shown is Figure \eqref{fig:Fig1}
 
@@ -110,23 +104,24 @@ The line parallel to $x$-axis is shown is Figure \eqref{fig:Fig1}
 \end{figure}
 %part-2
 
-\item Parallel to $Y$-axis
+\item Parallel to $y$-axis
 
-When line is parallel to $y$-axis then $(x-a)=0$
+The normal vector of $y$-axis is given by
 \begin{align}
-        4-k^2 \brak{x-b} &=0\\
-        k &=\sqrt{4}\\
-        k &= \pm 2
+\myvec{1\\0}
 \end{align}
-Substituting the value of $k$ in \eqref{eq:1} then equation of line parallel to $y$-axis is given by
+Equating the $\vec{n}$ to the normal vector of $y$-axis
+\begin{align}
+\myvec{k-3\\-4+k^2} &=\alpha\myvec{1\\0}\\
+0 &=\alpha\myvec{1\\0}\myvec{-4+k^2\\k-3}\\
+k &=\pm2
+\end{align}
+Substituting the value of $k$ in \eqref{eq:4} then equation of line parallel to $y$-axis is given by
 \begin{align}
 \text{for } k &=2\\
-        -x-4 &=0\\
-        x &=-4\\
+        \myvec{-1 & 0}\vec{x} &=4\\
 \text{for } k &=-2\\
-        -5x+24 &=0\\
-        5x &=24\\
-        x &= \frac{24}{5}
+        \myvec{-5 & 0}\vec{x} &=-24
 \end{align}
 The line parallel to $y$-axis is shown is Figure \eqref{fig:Fig2}
 
@@ -141,22 +136,18 @@ The line parallel to $y$-axis is shown is Figure \eqref{fig:Fig2}
 %part-3
 \item Passing through the origin
 
-When line is passing through origin $(0,0)$ then $x$ and $y$ coordinates are equal to $0$, from \eqref{eq:2}
+When line is passing through origin $(0,0)$ then $x$ and $y$ coordinates are equal to $0$, then 
 \begin{align}
-        \vec{n}^{\top}\vec{x} &=c        
-\end{align}
-Substituting the value of $n^\top$ and $c$ in
-\begin{align}
-    \myvec{k-3 & 4-k^2}\vec{x} &= -k^2+7k-6\\
+    \myvec{k-3 & -4+k^2}\vec{x} &= -k^2+7k-6\\
     0 &=-k^2+7k-6\\
    \implies k &=1 \text{ or } k=6
 \end{align}
-Substituting the value of $k$ in \eqref{eq:1} then equation of line parallel to $y$-axis is given by
+Substituting the value of $k$ in \eqref{eq:4} then equation of line parallel to $y$-axis is given by
 \begin{align}
 \text{for } k &=1\\
-        -2x-3y &=0\\
+        \myvec{-2 & -3}\vec{x} &=0\\
 \text{for } k &=6\\
-        -3x-32y &=0
+       \myvec{3 & 32}\vec{x} &=0
 \end{align}
 The line passing through origin $(0,0)$ is shown is Figure \eqref{fig:Fig3}
 
