@@ -53,19 +53,32 @@ This is Problem-12 from Exercise 10.2
 \begin{enumerate}
 \item Find the direction cosines of the vector $\hat{i} +2\hat{j}+3\hat{k}$.
 
-\solution Let
+\solution The direction cosines are the cosines of the angles formed by the given vector with the respective axes, let $\vec{A}$ be the given vector
 \begin{align}
-a=1, b=2, c=3, \vec{A}=\myvec{1\\2\\3}
+A =\hat{i} +2\hat{j}+3\hat{k}
 \end{align}
-The magnitude of $\vec{A}$ is given by
+The magnitude of the given vector is given by,
 \begin{align}
-\norm{\vec{A}}&={\vec{A}}^{\top}\vec{A}\\
+\norm{\vec{A}}&=\sqrt{1^2+2^2+3^2}\\
 \norm{\vec{A}} &=\sqrt{14}
 \end{align}
-The direction cosines are given by
+The direction cosines of $\vec{A}$ can be expressed as
 \begin{align}
-\frac{a}{\norm{\vec{A}}},\frac{b}{\norm{\vec{A}}},\frac{c}{\norm{\vec{A}}}\\
-\implies\frac{1}{\sqrt{14}},\frac{2}{\sqrt{14}},\frac{3}{\sqrt{14}}
+x &=\frac{(i.A)}{\norm{\vec{A}}}\\
+y &=\frac{(j.A)}{\norm{\vec{A}}}\\
+z &=\frac{(k.A)}{\norm{\vec{A}}}
+\end{align}
+The dot product of the unit vectors in the direction of the $x,y$ and $z$ axes with vector are expressed as
+\begin{align}
+i.(\hat{i} +2\hat{j}+3\hat{k}) &=1\\
+j.(\hat{i} +2\hat{j}+3\hat{k}) &=2\\
+k.(\hat{i} +2\hat{j}+3\hat{k}) &=3
+\end{align}
+So the direction cosines of vector $\hat{i} +2\hat{j}+3\hat{k}$ are
+\begin{align}
+x &=\frac{(i.A)}{\norm{\vec{A}}}= \frac{1}{\sqrt{14}}\\
+y &=\frac{(j.A)}{\norm{\vec{A}}}= \frac{2}{\sqrt{14}}\\
+z &=\frac{(k.A)}{\norm{\vec{A}}}= \frac{3}{\sqrt{14}}
 \end{align}
 
 
