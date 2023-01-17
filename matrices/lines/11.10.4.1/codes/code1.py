@@ -17,21 +17,22 @@ def line_dir_pt(m,A,k1,k2):
   return x_AB  
  
 #Input parameters 
-A=  np.array(([0,-(4/5)])) 
-
+A=  np.array(([0,(6/5)])) 
 k=3
-m=np.array(([k-3,-(4-k**2)]))                                                               
+m=np.array(([k-3,(-4+k**2)]))                                                               
 z=np.array(([0,1],[-1,0]))                            
 n=z@m
-print(n) 
+f=m@A
+
+print('equation of line parallel to x-axis with k=',k,'is',np.array2string(m),'x=',int(f))
+
 ##Generating the line  
 k1=-1 
 k2=1 
 x_AB = line_dir_pt(n,A,k1,k2) 
-#x_CD = line_dir_pt(m,D,k1,k2) 
  
 #Plotting all lines 
-plt.plot(x_AB[0,:],x_AB[1,:],label='y=$-\dfrac{4}{5}$')  
+plt.plot(x_AB[0,:],x_AB[1,:],label='({})X={}'.format(" ".join([str(i) for i in m]),int(f))) 
  
     # Add labels and show the plot 
 plt.xlabel('x') 

@@ -27,23 +27,27 @@ o=np.array(([k2-3,4-k2**2]))
 z=np.array(([0,1],[-1,0]))                            
 n=m@z
 p=o@z
-print(n)
-print(p) 
+f=m@A
+g=o@D
+print('equation of line parallel to y-axis with k=',k1,'is',np.array2string(m),'x=',int(f))
+print('equation of line parallel to y-axis with k=',k2,'is',np.array2string(o),'x=',int(g))
 ##Generating the line  
 s=-1 
 t=1 
-x_AB = line_dir_pt(n,A,s,t) 
+u=-5
+v=5
+x_AB = line_dir_pt(n,A,u,v) 
 x_CD = line_dir_pt(p,D,s,t) 
  
 #Plotting all lines 
-plt.plot(x_AB[0,:],x_AB[1,:],label='x=-4')  
-plt.plot(x_CD[0,:],x_CD[1,:],label='x=$\dfrac{24}{5}$')  
+plt.plot(x_AB[0,:],x_AB[1,:],label='({})x={}'.format(" ".join([str(i) for i in m]),int(f))) 
+plt.plot(x_CD[0,:],x_CD[1,:],label='({})x={}'.format(" ".join([str(i) for i in o]),int(g)))  
  
     # Add labels and show the plot 
 plt.xlabel('x') 
 plt.ylabel('y') 
 plt.title('Equation of line parallel to y-axis for k=$\pm$2') 
-plt.legend(loc='best') 
+plt.legend(loc='upper right') 
 plt.grid() 
 plt.axis('equal') 
 #plt.show()
