@@ -55,33 +55,27 @@ This is Problem-12 from Exercise 10.2
 
 \solution The direction cosines are the cosines of the angles formed by the given vector with the respective axes, let $\vec{A}$ be the given vector
 \begin{align}
-A =\hat{i} +2\hat{j}+3\hat{k}
+	\vec{A} =\myvec{1\\2\\3}
 \end{align}
-The magnitude of the given vector is given by,
+The Directional vectors of $x,y$ and $z$ axes are given respectively 
 \begin{align}
-\norm{\vec{A}}&=\sqrt{1^2+2^2+3^2}\\
-\norm{\vec{A}} &=\sqrt{14}
+		\vec{e_1} =\myvec{1\\0\\0},\vec{e_2}=\myvec{0\\1\\0},\vec{e_3} =\myvec{0\\0\\1}
 \end{align}
+		The magnitudes for $\vec{A}$ and directional vectors $\vec{e_1},\vec{e_2},\vec{e_3}$ are
+	\begin{align}
+\norm{\vec{A}} =\sqrt{14},\norm{\vec{e_1}}=\sqrt{1},\norm{\vec{e_1}}=\sqrt{1},\norm{\vec{e_1}}=\sqrt{1}
+	\end{align}
 The direction cosines of $\vec{A}$ can be expressed as
 \begin{align}
-a &=\frac{(i.A)}{\norm{\vec{A}}}\\
-b &=\frac{(j.A)}{\norm{\vec{A}}}\\
-c &=\frac{(k.A)}{\norm{\vec{A}}}
+	\cos\theta_1 &=\frac{\vec{A}^\top\vec{e_1}}{\norm{\vec{A}}\norm{\vec{e_1}}}\\
+	\cos\theta_2 &=\frac{\vec{A}^\top\vec{e_2}}{\norm{\vec{A}}\norm{\vec{e_2}}}\\
+	\cos\theta_3 &=\frac{\vec{A}^\top\vec{e_3}}{\norm{\vec{A}}\norm{\vec{e_3}}}
 \end{align}
-The dot product of the unit vectors in the direction of the $x,y$ and $z$ axes with vector are expressed as
+		So the direction cosines of vector $\vec{A}$ are
 \begin{align}
-i.(\hat{i} +2\hat{j}+3\hat{k}) &=1\\
-j.(\hat{i} +2\hat{j}+3\hat{k}) &=2\\
-k.(\hat{i} +2\hat{j}+3\hat{k}) &=3
+	\cos\theta_1 &=\frac{\myvec{1&2&3}\myvec{1\\0\\0}}{\sqrt{14}}=\frac{1}{\sqrt{14}}\\
+	\cos\theta_2 &=\frac{\myvec{1&2&3}\myvec{0\\1\\0}}{\sqrt{14}}=\frac{2}{\sqrt{14}}\\
+	\cos\theta_3 &=\frac{\myvec{1&2&3}\myvec{0\\0\\1}}{\sqrt{14}}=\frac{3}{\sqrt{14}}
 \end{align}
-So the direction cosines of vector $\hat{i} +2\hat{j}+3\hat{k}$ are
-\begin{align}
-a &=\frac{(i.A)}{\norm{\vec{A}}}= \frac{1}{\sqrt{14}}\\
-b &=\frac{(j.A)}{\norm{\vec{A}}}= \frac{2}{\sqrt{14}}\\
-c &=\frac{(k.A)}{\norm{\vec{A}}}= \frac{3}{\sqrt{14}}
-\end{align}
-
-
-
 \end{enumerate}
 \end{document}
