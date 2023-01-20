@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+%\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[parfill]{parskip}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{gensymb}
+%\usepackage{setspace}\doublespacing\pagestyle{plain}
+\def\inputGnumericTable{}
+\usepackage{color}                                            %%
+    \usepackage{array}                                            %%
+    \usepackage{longtable}                                        %%
+    \usepackage{calc}                                             %%
+    \usepackage{multirow}                                         %%
+    \usepackage{hhline}                                           %%
+    \usepackage{ifthen}
+\usepackage{array}
+\usepackage{amsmath}   % for having text in math mode
+\usepackage{parallel,enumitem}
+\usepackage{listings}
+\lstset{
+language=tex,
+frame=single,
+breaklines=true
+}
+ 
+%Following 2 lines were added to remove the blank page at the beginning
+\usepackage{atbegshi}% http://ctan.org/pkg/atbegshi
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+%
+%New macro definitions
+\newcommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\solution}{\noindent \textbf{Solution: }}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\let\vec\mathbf
+\begin{document}
+\begin{center}
+\enlargethispage{-4cm}
+\title{\textbf{Vector Algebra}}
+\date{\vspace{-5ex}} %Not to print date automatically
+\maketitle
+\end{center}
+\setcounter{page}{1}
+\section*{12$^{th}$ Maths - Chapter 10}
+This is Problem-3 from Exercise 10.4
+\begin{enumerate}
+\item If unit vector $\overrightarrow{a}$ makes angles $\frac{\pi}{3}$ with $\hat{i}$, $\frac{\pi}{4}$ with $\hat{j}$ and an acute angle $\theta$ with $\hat{k}$, then find $\theta$ and hence, the components of $\overrightarrow{a}$.
+
+\solution 
+Let $\vec{A}$ be the given vector and $\Vec{e_1},\vec{e_2},\vec{e_3}$ be the unit vectors representing the unit vectors $\hat{i},\hat{j},\hat{k}$ respectively
+\begin{align}
+ \vec{A} =\myvec{a_1\\a_2\\a_3},\vec{e_1} =\myvec{1\\0\\0},\vec{e_2}=\myvec{0\\1\\0},\vec{e_3} =\myvec{0\\0\\1}
+\end{align}
+  The magnitudes for vectors $\vec{e_1},\vec{e_2},\vec{e_3}$ are
+ \begin{align}
+\norm{\vec{e_1}}=1,\norm{\vec{e_2}}=1,\norm{\vec{e_3}}=1
+ \end{align}
+Let 
+\begin{align}
+ \cos\theta_i=1,2,3  
+\end{align}
+  So for different values of $\cos\theta_i$ the angles of vector $\vec{A}$ are
+\begin{align}
+ \cos\theta_1 &=\frac{\myvec{a_1&a_2&a_3}\myvec{1\\0\\0}}{1}=a_1\\
+ \cos\theta_2 &=\frac{\myvec{a_1&a_2&a_3}\myvec{0\\1\\0}}{1}=a_2\\
+ \cos\theta_3 &=\frac{\myvec{a_1&a_2&a_3}\myvec{0\\0\\1}}{1}=a_3
+\end{align}
+Then,
+\begin{align}
+     a_1 &=\cos\theta_1 =\cos\frac{\pi}{3}=\frac{1}{2}\\ a_2 &=\cos\theta_2 =\cos\frac{\pi}{4}=\frac{1}{\sqrt{2}}\\
+     a_3 &=\cos\theta_3 
+\end{align}
+As $\Vec{A}$ is unit vector then
+\begin{align}
+    \norm{\Vec{A}}&=1\\
+    \sqrt{a_1^2+a_2^2+a_3^2}&=1\\
+    \sqrt{\frac{1}{2}^2+\frac{1}{\sqrt{2}}^2+\cos^2\theta_3 }&=1\\
+    \cos\theta_3 &=\pm\frac{1}{2}
+\end{align}
+As $\theta_3$ is an acute angle
+\begin{align}
+    \theta_3&=60\degree, a_3=\cos60\degree=\frac{1}{2}\\
+    \text{Hence }\vec{A}&=\myvec{\frac{1}{2}\\[2pt] \frac{1}{\sqrt{2}}\\[2pt] \frac{1}{2}}
+\end{align}
+\end{enumerate}
+\end{document}
