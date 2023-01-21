@@ -12,7 +12,7 @@ B = np.array(([-4, 0]))
 C = np.array(([b1, b2]))  
  
 # Net displacement: add the two displacements together 
-D = [B[0] + C[0], B[1] + C[1]] 
+D = B+C 
 print(D) 
 print(b1,b2) 
  
@@ -29,24 +29,24 @@ def line_gen(A,B):
 #Generating all lines 
 x_AB = line_gen(A,B) 
 x_BC= line_gen(B,C) 
-x_AC = line_gen(A,C) 
+x_AC = line_gen(C,A) 
  
  
 # 
 # 
 #Plotting all lines 
-plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$') 
-plt.plot(x_BC[0,:],x_BC[1,:],label='$BC$') 
-plt.plot(x_AC[0,:],x_AC[1,:],label='$AC$') 
+plt.plot(x_AB[0,:],x_AB[1,:],label='$A-B$') 
+plt.plot(x_BC[0,:],x_BC[1,:],label='$B-C$') 
+plt.plot(x_AC[0,:],x_AC[1,:],label='$C-A$') 
 # 
 # 
 #Labeling the coordinates 
 tri_coords = np.vstack((A,B,C)).T 
 plt.scatter(tri_coords[0,:], tri_coords[1,:]) 
-vert_labels = ['A''  ($\dfrac{-5}{2}$,$\dfrac{3\sqrt{3}}{2}$)','B''(-4,0)','C'' ($\dfrac{3}{2}$,$\dfrac{3\sqrt{3}}{2}$)'] 
+vert_labels = ['A''  (0,0)','B''(-4,0)','C'' ($\dfrac{3}{2}$,$\dfrac{3\sqrt{3}}{2}$)'] 
 for i, txt in enumerate(vert_labels): 
     plt.annotate(txt, # this is the text 
-                 (tri_coords[0,i], tri_coords[1,i]), # this is the point to label 
+                 (tri_coords[0,i], tri_coords[1,i]), # this is the point to label
                  textcoords="offset points", # how to position the text 
                  xytext=(0,-19), # distance from text to points (x,y) 
                  ha='center') # horizontal alignment can be left, right or center 
@@ -56,7 +56,7 @@ plt.ylabel('North')
 plt.legend(loc='best') 
 plt.grid() # minor 
 plt.axis('equal') 
-plt.title('Displacement') 
+plt.title('Initial Displacement ($\dfrac{-5}{2}$,$\dfrac{3\sqrt{3}}{2}$)') 
 #if using termux 
 plt.savefig('../figs/fig.pdf') 
 #else 
