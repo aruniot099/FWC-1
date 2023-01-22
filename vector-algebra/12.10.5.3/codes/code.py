@@ -35,9 +35,9 @@ x_AC = line_gen(C,A)
 # 
 # 
 #Plotting all lines 
-plt.plot(x_AB[0,:],x_AB[1,:],label='$A-B$') 
-plt.plot(x_BC[0,:],x_BC[1,:],label='$B-C$') 
-plt.plot(x_AC[0,:],x_AC[1,:],label='$C-A$') 
+plt.plot(x_AB[0,:],x_AB[1,:],label='$B-A$') 
+plt.plot(x_BC[0,:],x_BC[1,:],label='$C-B$') 
+plt.plot(x_AC[0,:],x_AC[1,:],label='$A-C$') 
 # 
 # 
 #Labeling the coordinates 
