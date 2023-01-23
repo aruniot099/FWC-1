@@ -4,17 +4,17 @@ from numpy import linalg as LA
 import math 
 from fractions import Fraction  
  
-b1=3 * np.cos(np.radians(60)) 
-b2=3 * np.sin(np.radians(60)) 
+#b1=3 * np.cos(np.radians(60)) 
+#b2=3 * np.sin(np.radians(60)) 
 #Two aray vectors are given   
 A = np.array(([0, 0])) 
 B = np.array(([-4, 0]))  
-C = np.array(([b1, b2]))  
+C = np.array(([3*np.cos(np.radians(60)),3* np.sin(np.radians(60))]))  
  
 # Net displacement: add the two displacements together 
 D = B+C 
-print(D) 
-print(b1,b2) 
+print(C) 
+print('Initial displacement=',D) 
  
 def line_gen(A,B): 
    len =10 
