@@ -17,4 +17,7 @@ dir_cos1 = ((vec.T)@e1) / (mag*a)
 dir_cos2 = ((vec.T)@e2) / (mag*b)
 dir_cos3 = ((vec.T)@e3) / (mag*c)
 
-print(dir_cos1,dir_cos2,dir_cos3)  
+print(dir_cos1,dir_cos2,dir_cos3) 
+B=np.array(([dir_cos1,dir_cos2,dir_cos3]))
+mag1=np.linalg.norm(B)
+print(mag1)
