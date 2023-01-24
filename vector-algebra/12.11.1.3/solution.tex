@@ -53,36 +53,21 @@ This is Problem-3 from Exercise 11.1
 \begin{enumerate}
 \item If a line has the direction ratios –18, 12, –4, then what are its direction cosines ?
 
-\solution The direction cosines are the cosines of the angles formed by the given vector with the respective axes, let $\vec{A}$ be the given vector
+\solution let $\vec{A}$ be the given vector
 \begin{align}
 	\vec{A} =\myvec{-18\\12\\-4}
 \end{align}
-The Directional vectors of $x,y$ and $z$ axes are given respectively 
+Then $\vec{B}$ be the unit vector in the direction of $\vec{A}$ then directions cosines is given by  
 \begin{align}
-		\vec{e_1} =\myvec{1\\0\\0},\vec{e_2}=\myvec{0\\1\\0},\vec{e_3} =\myvec{0\\0\\1}
+		\vec{B}=\frac{\vec{A}}{\norm{\vec{A}}}
 \end{align}
-		The magnitudes for $\vec{A}$ and directional vectors $\vec{e_1},\vec{e_2},\vec{e_3}$ are
+		The magnitude for $\vec{A}$ is 
 	\begin{align}
-\norm{\vec{A}} =22,\norm{\vec{e_1}}=\norm{\vec{e_2}}=\norm{\vec{e_3}}=1
+	\norm{\vec{A}}=22
 	\end{align}
-The Direction cosines are given by
+Then direction cosines are 
 \begin{align}
-	\cos\theta_i=\frac{\vec{A}^\top\vec{e_i}}{\norm{\vec{A}}\norm{\vec{e_i}}}\\
-	\text{ where }i=1,2,3  
+\vec{B}=\brak{\frac{-9}{11},\frac{6}{11},\frac{-2}{11}}
 \end{align}
-		So for different values of $\cos\theta_i$ the direction cosines of vector $\vec{A}$ are
-\begin{align}
-	\cos\theta_1 &=\frac{\myvec{-18&12&-4}\myvec{1\\0\\0}}{22}=\frac{-9}{11}\\
-	\cos\theta_2 &=\frac{\myvec{-18&12&-4}\myvec{0\\1\\0}}{22}=\frac{6}{11}\\
-	\cos\theta_3 &=\frac{\myvec{-18&12&-4}\myvec{0\\0\\1}}{22}=\frac{-2}{11}
-\end{align}
-		Let vector $\vec{B}$ be unit vector in the direction of $\vec{A}$
-		\begin{align}
-			\vec{B}=\myvec{\cos\theta_1\\\cos\theta_2\\\cos\theta_3}
-		\end{align}
-		then magnitude of $\vec{B}$ is,
-		\begin{align}
-			\norm{\vec{B}} =\sqrt{\brak{\frac{-9}{11}}^2+\brak{\frac{6}{11}}^2+\brak{\frac{-2}{11}}^2}=1
-		\end{align}
 \end{enumerate}
 \end{document}
