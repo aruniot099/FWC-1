@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  27 JAN 2023 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  28 JAN 2023 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,27 +551,25 @@ Package ltshipout Info: Completed page discarded on input line 51.
 
 LaTeX Warning: No \author given.
 
-<figs/fig.pdf, id=6, 462.52798pt x 346.89601pt>
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<figs/fig.pdf, id=25, 462.52798pt x 346.89601pt>
 File: figs/fig.pdf Graphic file (type pdf)
 <use figs/fig.pdf>
 Package pdftex.def Info: figs/fig.pdf  used on input line 84.
 (pdftex.def)             Requested size: 390.0pt x 292.51282pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figs/fig.pdf>]
+ [2 <./figs/fig.pdf>]
 (./line5solution.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `line5solution.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  10419 strings out of 479304
  161424 string characters out of 5869778
- 693617 words of memory out of 5000000
+ 692617 words of memory out of 5000000
  27402 multiletter control sequences out of 15000+600000
  411183 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,15n,74p,527b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,15n,74p,527b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -579,9 +577,9 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on line5solution.pdf (2 pages, 80326 bytes).
+Output written on line5solution.pdf (2 pages, 82087 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
