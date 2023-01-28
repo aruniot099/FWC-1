@@ -37,6 +37,7 @@ print('The equation of line is',np.array2string(m),'x=',int(c))
  
 #Input parameters  
 A=  np.array(([(8/3)*np.sqrt(3),2])) 
+B=  np.array(([-(8/3)*np.sqrt(3),-2])) 
 O=  np.array(([0,0])) 
 #Direction vector  
 k1=1 
@@ -50,11 +51,15 @@ k1=5
 k2=-2  
  
 x_AB = line_dir_pt(n,A,k1,k2)  
+x_AC = line_dir_pt(n,B,k1,k2)  
 x_OA = line_gen(O,A) 
+x_OB = line_gen(O,B) 
   
 #Plotting all lines  
 plt.plot(x_AB[0,:],x_AB[1,:],label='$\\left(\dfrac{\sqrt{3}}{2} \\dfrac{1}{2}\\right)$ X=5') 
-plt.plot(x_OA[0,:],x_OA[1,:],label='d=5')      
+plt.plot(x_AC[0,:],x_AC[1,:],label='$\\left(\dfrac{\sqrt{3}}{2} \\dfrac{1}{2}\\right)$ X=-5')  
+plt.plot(x_OA[0,:],x_OA[1,:],label='d=5')    
+plt.plot(x_OB[0,:],x_OB[1,:],label='d=5')     
  
 #Labeling the coordinates  
 tri_coords = O.T  
@@ -71,7 +76,7 @@ for i, txt in enumerate(vert_labels):
 plt.xlabel('x')  
 plt.ylabel('y')  
 plt.title('Equation of line')  
-plt.legend(loc='best')  
+plt.legend(loc='upper left')  
 plt.grid()  
 plt.axis('equal')  
 #plt.show() 
