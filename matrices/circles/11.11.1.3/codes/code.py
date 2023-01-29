@@ -26,12 +26,12 @@ print(f)
 x_circ= circ_gen(c,r)
 
 #Plotting the circle
-plt.plot(x_circ[0,:],x_circ[1,:],label = r"$||x||^2 + \left( -1 \dfrac{-1}{2} \right)x + \dfrac{11}{36} = 0$")
+plt.plot(x_circ[0,:],x_circ[1,:],label = 'Circle')
 
 #Labeling the coordinates
 tri_coords = c.T  
 plt.scatter(tri_coords[0], tri_coords[1])  
-vert_labels = ['c$\\left(\\frac{1}{2}, \\frac{2}{4}\\right)$'] 
+vert_labels = ['c'] 
 for i, txt in enumerate(vert_labels):  
       plt.annotate(txt, # this is the text  
                  (tri_coords[0], tri_coords[1]), # this is the point to label  
