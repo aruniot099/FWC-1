@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  30 JAN 2023 09:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  30 JAN 2023 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,9 +212,459 @@ l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
 l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
                                                   
 ? 
-! Emergency stop.
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
 <inserted text> }
                  
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Extra }, or forgotten $.
+<inserted text> }
+                 
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
+                                                  
+? 
+! Emergency stop.
+<inserted text> 
+                }
 l.218 ...PB{\centering}\gnumbox{$\myvec{0 \\ 0}$}}
                                                   
 End of file on the terminal!
