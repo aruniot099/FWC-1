@@ -55,15 +55,22 @@ This is Problem-3 from Exercise 1
 \begin{enumerate}
 	\item A tangent $\vec{PQ}$ at a point $\vec{P}$ of a circle of radius 5 cm meets a line through the centre $\vec{O}$ at a point $\vec{Q}$ so that $\vec{OQ}$ = 12 cm. Length $\vec{PQ}$ is
 
-\solution Given,
+\solution \\The input parameters for this problem are available in Table \eqref{Table-1}
+\begin{table}[ht!]\centering
+\input{tables/table1.tex}
+\caption{}
+\label{Table-1}	
+\end{table}
+
+Since $\vec{PQ}$ is a tanget then
 		\begin{align}
-			\vec{OP}&=5cm\\
-			\vec{OQ}&=12cm
+\vec{OP}\perp\vec{PQ}
 		\end{align}
-		As $\vec{OP}\perp\vec{PQ}$ then $\vec{OPQ}$ forms as a right triangle
-		\begin{align}
+Then $\triangle\vec{OPQ}$ is a right angle triangle
+\begin{align}
 \vec{OQ}^2&=\vec{OP}^2+\vec{PQ}^2\\
-\vec{PQ}^2&=144-25\\
+	\vec{PQ}&=\sqrt{\vec{OQ}^2-\vec{OP}^2}\\
+	\vec{PQ}&=\sqrt{114-25}\\
 \vec{PQ}&=\sqrt{119}
 		\end{align}
 \begin{figure}[!h]
