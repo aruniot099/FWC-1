@@ -62,20 +62,39 @@ This is Problem-3 from Exercise 1
 \label{Table-1}	
 \end{table}
 
-Since $\vec{PQ}$ is a tanget then
+Let,
 		\begin{align}
-\vec{OP}\perp\vec{PQ}
+			\vec{O}-\vec{P}&=p\\
+			\vec{O}-\vec{Q}&=q\\
+			\vec{P}-\vec{Q}&=o
 		\end{align}
-Then $\triangle\vec{OPQ}$ is a right angle triangle
-\begin{align}
-\vec{OQ}^2&=\vec{OP}^2+\vec{PQ}^2\\
-	\vec{PQ}&=\sqrt{\vec{OQ}^2-\vec{OP}^2}\\
-	\vec{PQ}&=\sqrt{114-25}\\
-\vec{PQ}&=\sqrt{119}
+		by triangle law of vector addition
+		\begin{align}
+			p&=q+o\\
+			o&=p-a
+		\end{align}
+		Now magnitude of $o$ is given by
+		\begin{align}
+		\norm{o}^2&=\norm{p-q}^2\\
+	&=\norm{p}^2+\norm{q}^2-2p.a^\top\\
+			&=25+144-2(\abs{p}\abs{a})(\cos{\theta}) \label{eq:8}
+		\end{align}
+		Since PQ is a tanget then
+		\begin{align}
+OP\perp PQ
+		\end{align}
+Then $\triangle OPQ$ is a right angle triangle, From $\triangle OPQ$,
+		\begin{align}
+			\cos{\theta}=\frac{5}{12}\label{eq:10}
+		\end{align}
+		Then substituting \eqref{eq:10} in \eqref{eq:8} yeilds
+		\begin{align}
+		\norm{o}^2&=169-2(12)(5)\brak{\frac{5}{12}}\\
+		\norm{o}&=\sqrt{119}
 		\end{align}
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=\columnwidth]{figs/fig.pdf}
+\includegraphics[width=\columnwidth]{figs/fig1.pdf}
 \end{center}
 \caption{}
 \label{fig:Fig1}
