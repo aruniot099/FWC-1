@@ -17,18 +17,34 @@ from conics.funcs import *
 import subprocess
 import shlex
 #end if
+#Circle parameters 
+r = 5 
+d=12 
+theta=np.radians  
+P=np.array(([r*np.cos(theta(0)),r*np.sin(theta(0))])) 
+O = np.array(([0,0])) 
+#Parametric equation 
+#Q=A+xm(where, x=lamda) 
+#x^2||m||^2+2xA^tm+||A||^2=d^2 
+A = np.array(([5,0])) 
+m=np.array(([0,1])) 
+a1=np.linalg.norm(A) 
+M=np.linalg.norm(m) 
+a = M**2 
+b = 2*(A@(m.T)) 
+c = (a1**2)-(d**2) 
+print(a,b,c) 
+x = np.roots([a, b, c]) 
+print(x) 
+#Q =  np.array(([5,np.sqrt(119)])) 
+Q1=A+x[0]*m 
+Q2=A+x[1]*m 
+print(Q1,Q2)
 
-#Circle parameters
-r = 5
-d=12
-theta=np.radians 
-P=np.array(([r*np.cos(theta(0)),r*np.sin(theta(0))]))
-O = np.array(([0,0]))
-Q =  np.array(([5,np.sqrt(119)]))
 ##Generating the line 
-xPQ = line_gen(P,Q)
+xPQ = line_gen(P,Q2)
 xOP = line_gen(O,P)
-xOQ = line_gen(O,Q)
+xOQ = line_gen(O,Q2)
 
 ##Generating the circle
 x_circ= circ_gen(O,r)
@@ -43,7 +59,7 @@ plt.plot(x_circ[0,:],x_circ[1,:],label='Circle')
 
 
 #Labeling the coordinates
-tri_coords = np.vstack((O,P,Q)).T
+tri_coords = np.vstack((O,P,Q2)).T
 plt.scatter(tri_coords[0,:], tri_coords[1,:])
 vert_labels = ['O','P','Q']
 for i, txt in enumerate(vert_labels):
