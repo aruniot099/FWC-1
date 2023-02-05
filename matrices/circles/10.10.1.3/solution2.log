@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  5 FEB 2023 08:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.12.23)  5 FEB 2023 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,38 +560,36 @@ LaTeX Warning: No \author given.
 \gnumericColC=\skip70
 \gnumericColD=\skip71
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figs/fig2.pdf, id=29, 462.52798pt x 346.89601pt>
+[2]
+<figs/fig2.pdf, id=48, 462.52798pt x 346.89601pt>
 File: figs/fig2.pdf Graphic file (type pdf)
 <use figs/fig2.pdf>
-Package pdftex.def Info: figs/fig2.pdf  used on input line 114.
+Package pdftex.def Info: figs/fig2.pdf  used on input line 116.
 (pdftex.def)             Requested size: 390.0pt x 292.51282pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] [3 <./figs/fig2.pdf>] (./solution2.aux)
+ [3 <./figs/fig2.pdf>] (./solution2.aux)
 Package rerunfilecheck Info: File `solution2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10459 strings out of 479304
- 161909 string characters out of 5869778
+ 10461 strings out of 479304
+ 161935 string characters out of 5869778
  702609 words of memory out of 5000000
  27424 multiletter control sequences out of 15000+600000
  411183 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,19n,74p,523b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on solution2.pdf (3 pages, 85028 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb>
+Output written on solution2.pdf (3 pages, 91952 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
+ 29 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
