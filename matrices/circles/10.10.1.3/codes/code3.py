@@ -52,11 +52,11 @@ xOQ2 = line_gen(O,Q2)
 x_circ= circ_gen(O,r)
 
 #Plotting all lines
-plt.plot(xPQ1[0,:],xPQ1[1,:],label='Tangent PQ1')
-plt.plot(xPQ2[0,:],xPQ2[1,:],label='Tangent PQ2')
+plt.plot(xPQ1[0,:],xPQ1[1,:],label='Tangent $PQ_1$')
+plt.plot(xPQ2[0,:],xPQ2[1,:],label='Tangent $PQ_2$')
 plt.plot(xOP[0,:],xOP[1,:],label='OP')
-plt.plot(xOQ1[0,:],xOQ1[1,:],label='OQ1')
-plt.plot(xOQ2[0,:],xOQ2[1,:],label='OQ2')
+plt.plot(xOQ1[0,:],xOQ1[1,:],label='$OQ_1$')
+plt.plot(xOQ2[0,:],xOQ2[1,:],label='$OQ_2$')
 #Plotting the circle
 plt.plot(x_circ[0,:],x_circ[1,:],label='Circle')
 
@@ -64,12 +64,12 @@ plt.plot(x_circ[0,:],x_circ[1,:],label='Circle')
 #Labeling the coordinates
 tri_coords = np.vstack((O,P,Q1,Q2)).T
 plt.scatter(tri_coords[0,:], tri_coords[1,:])
-vert_labels = ['O','P','Q1','Q2']
+vert_labels = ['O','P','$Q_1$','$Q_2$']
 for i, txt in enumerate(vert_labels):
     plt.annotate(txt, # this is the text
                  (tri_coords[0,i], tri_coords[1,i]), # this is the point to label
                  textcoords="offset points", # how to position the text
-                 xytext=(10,-2), # distance from text to points (x,y)
+                 xytext=(5,5), # distance from text to points (x,y)
                  ha='center') # horizontal alignment can be left, right or center
 
 plt.xlabel('$x$')
