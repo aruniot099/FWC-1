@@ -1,7 +1,3 @@
-#Code by G. Arun Kumar(Works on Termux)
-#16th Feb
-#Link to License("https://github.com/aruniot099/FWC-1/blob/main/License")
-
 import numpy as np 
 import matplotlib.pyplot as plt 
 import ctypes
@@ -12,14 +8,13 @@ libmain = ctypes.CDLL('./libmain.so')
 # Call the function from the shared object file
 ratio = libmain.main()
 
-#Two aray vectors are loaded from .dat files 
+#Two aray vectors are given  
 P = np.loadtxt('a.dat',dtype='float')
 Q = np.loadtxt('b.dat',dtype='float')
 R = np.loadtxt('c.dat',dtype='float')
 
 print("Point (-1,6) divides PQ in ratio of", ratio)
  
-#Line Genration
 def line_gen(P,Q): 
    len =10 
    dim = P.shape[0] 

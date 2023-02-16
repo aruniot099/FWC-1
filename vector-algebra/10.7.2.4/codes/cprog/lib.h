@@ -239,3 +239,16 @@ void save(double **a, int rows, int cols) {
   fclose(fp);
 }
 
+
+double **linalg_div(double **a, double **b,
+int m, int n)
+{
+int i, j;                                   double **c;                                 c = createMat(m,n);
+
+ for(i=0;i<m;i++)
+ {
+  for(j=0;j<n;j++)
+  {
+c[i][j]= a[i][j]/b[i][j];
+  }                                          }                                          return c;
+                                            }
