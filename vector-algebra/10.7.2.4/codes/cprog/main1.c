@@ -1,6 +1,8 @@
 /*Code by G. Arun Kumar (works on termux)
 Feb 16, 2023
+Link to License("https://github.com/aruniot099/FWC-1/blob/main/License")
 Finding the ratio in which the line segement joining the points R(−3,10) and (6,−8) is divide by (−1,6)*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
