@@ -1,7 +1,8 @@
 /*Code by G. Arun Kumar (works on termux)
 Feb 17, 2023
 Link to License("https://github.com/aruniot099/FWC-1/blob/main/License")
-Calculating the area of the ADE where the vertices of triangle ABC are A (4, 6), B (1, 5) and C (7, 2). A line is drawn to intersectsides AB and AC at D and E respectively ,such that AD/AB= AE/AC = 1/4.
+Calculating the area of the ADE where the vertices of triangle ABC are A (4, 6), B (1, 5) and C (7, 2). A line is drawn to intersect sides AB and AC at D and E 
+respectively ,such that AD/AB= AE/AC = 1/4.
 */
 
 #include <stdio.h>
