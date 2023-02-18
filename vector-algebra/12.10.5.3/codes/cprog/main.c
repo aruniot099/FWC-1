@@ -10,7 +10,7 @@ To Find the the girl’s displacement from her initial point of departure, where
 
 int main() {
     double **a, **b, **c, **d;
-    double theta = 60 * M_PI / 180; // convert degrees to radians
+    double theta;
     int m = 2, n = 1;
 
     // load the values of vectors A and B from files
@@ -18,11 +18,14 @@ int main() {
     b = loadtxt("b.dat", m, n);
     
     // create a 2x1 matrix to hold the values of vector C
-    c = createMat(m, n);
+    //c = createMat(m, n);
 
     // calculate the values of vector C
-    c[0][0] = 3 * cos(theta);
-    c[1][0] = 3 * sin(theta);
+    //c[0][0] = 3 * cos(theta);
+    //c[1][0] = 3 * sin(theta);
+
+    theta=radians(60);   		//Store 75deg in radians form
+    c=np_array(3*cos(theta),3*sin(theta));
 
     // add vectors B and C using the linalg_add function from the lib.h library
     d = linalg_add(b, c, m, n);

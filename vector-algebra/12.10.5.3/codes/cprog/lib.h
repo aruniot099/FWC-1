@@ -256,3 +256,19 @@ c[i][j]= a[i][j]+b[i][j];
 return c;
 
 }
+
+double **np_array(double a,double b)
+{
+	double **c;
+	c=createMat(2,1);
+	c[0][0]=a;
+	c[1][0]=b;
+	return c;
+}
+
+double radians(double deg)
+{
+	double rad;
+	rad=deg*(M_PI / 180);
+	return rad;
+}
