@@ -1,3 +1,8 @@
+/*Code by G. Arun Kumar (works on termux)
+Feb 20, 2023
+Link to License("https://github.com/aruniot099/FWC-1/blob/main/License")
+Find the equation of circle with centre (1/2,1/4) and radius 1/12 
+*/ 
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
