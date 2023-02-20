@@ -1,9 +1,7 @@
 /*Code by G. Arun Kumar (works on termux)
-Feb 18, 2023
+Feb 20, 2023
 Link to License("https://github.com/aruniot099/FWC-1/blob/main/License")
-Finding the equation of line perpendicular distance from the origin is 5
-units and the angle made by the perpendicular with the positive x-axis is 30.
-*/
+Find the equation of line passing through (0,0) with slope m.*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
