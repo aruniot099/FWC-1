@@ -11,8 +11,8 @@ units and the angle made by the perpendicular with the positive x-axis is 30.
 
 int main() {
     double **a, **b, **o, **z, **dir, **N;
-    double theta;  
-    int m = 2, n = 1;
+    double theta, c;  
+    int m = 2, n = 1, d = 5;
 
     //Defining the angle in Radians
     theta=radians(30);
@@ -34,8 +34,12 @@ int main() {
     // Calculate the matrix multiplication
     N = matmul(z, dir, m, 2, 2);
 
+    // Calculate the  value of c
+    c = d * linalg_norm(dir, m);
+
     // Print the result
     print(N, m, n);
+    printf("the value of c is %lf\n",c);
 
     return 0;
 }
