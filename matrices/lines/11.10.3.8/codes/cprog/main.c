@@ -10,7 +10,7 @@ having x intercept 3.
 #include "lib.h"
 
 int main() {
-    double **a, **d, **z, **M, **N;
+    double **a, **d, **c, **z, **M, **N;
     int m = 2, n = 1;
 
     // Load the array from files
@@ -22,8 +22,12 @@ int main() {
     // Calculate the matrix multiplication
     N = matmul(z, M, m, 2, 2);
 
+    // The calculation for the value of c
+    c=matmul(N,d,m,n,2);
+
     // Print the result
     print(N, m, n);
+    printf("The value of c is %lf\n",c[0][0]);
 
     // Saving the Result
     save(N,m,n);
