@@ -1,8 +1,10 @@
 # To copy repository
 svn co https://github.com/arun_iot/fwc-1/Bluetooth_controlled_UGV/trunk/codes
+
 cd codes
 
 # To build ESP32 firmware
+
 cd ESP_code
 pio run
 # To flash ESP32 firmware, connect usb-uart adapter
